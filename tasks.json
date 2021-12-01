@@ -1,0 +1,31 @@
+{
+	"versión" : " 2.0.0 " ,
+	"tareas" : [
+		{
+			"tipo" : " shell " ,
+			"etiqueta" : " compilación " ,
+			"comando" : " g ++ " ,
+			"argumentos" : [
+				" -std = c ++ 17 " ,
+				" -Incluido " ,
+				" -Isrc / dinámica " ,
+				" src / * cc " ,
+				" src / colisión / *. cpp " ,
+				" src / common / *. cpp " ,
+				" src / dynamics / *. cpp " ,
+				" src / cuerda / *. cpp " ,
+				" -o " ,
+				" bin / game.exe " ,
+				" lib / *. a "
+			],
+			"opciones" : {
+				"cwd" : " $ {workspaceFolder} "
+			},
+			"problemMatcher" : [
+				" $ gcc "
+			],
+			"grupo" : " construir " ,
+			"detalle" : " compilador: \" C: \\ Archivos de programa (x86) \\ mingw-w64 \\ mingw32 \\ bin \\ g ++. exe \ " "
+		}
+	]
+}

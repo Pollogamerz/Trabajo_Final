@@ -1,0 +1,26 @@
+{
+    "versión" : " 0.2.0 " ,
+    "configuraciones" : [
+      {
+        "nombre" : " (gdb) Iniciar " ,
+        "tipo" : " cppdbg " ,
+        "solicitud" : " lanzamiento " ,
+        "program" : " $ {workspaceFolder} /bin/game.exe " ,
+        "argumentos" : [],
+        "stopAtEntry" : falso ,
+        "cwd" : " $ {workspaceFolder} " ,
+        "entorno" : [],
+        "externalConsole" : verdadero ,
+        "MIMode" : " gdb " ,
+        "miDebuggerPath" : " gdb " ,
+        "setupCommands" : [
+          {
+            "description" : " Habilitar la impresión con sangría para gdb " ,
+            "text" : " -enable-pretty-printing " ,
+            "ignoreFailures" : verdadero
+          }
+        ],
+        "preLaunchTask" : " compilación "
+      }
+    ]
+  }

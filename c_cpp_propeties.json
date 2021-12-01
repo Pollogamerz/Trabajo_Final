@@ -1,0 +1,18 @@
+{
+    "configuraciones" : [
+        {
+            "nombre" : " Win32 " ,
+            "includePath" : [
+                " $ {predeterminado} " ,
+                " $ {workspaceFolder} / include " ,
+                " $ {workspaceFolder} / cli / include "
+            ],
+            "windowsSdkVersion" : " 10.0.19041.0 " ,
+            "compilerPath" : " C: \\ Archivos de programa (x86) \\ Microsoft Visual Studio \\ 2017 \\ BuildTools \\ VC \\ Herramientas \\ MSVC \\ 14.16.27023 \\ bin \\ Hostx64 \\ 64 \\ cl.exe " ,
+            "cStandard" : " c17 " ,
+            "cppStandard" : " c ++ 17 " ,
+            "intelliSenseMode" : " windows-msvc-x64 "
+        }
+    ],
+    "versión" : 4
+}
